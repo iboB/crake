@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+# CRake command line tool
+
+# temporary here to use while developing
+$:.unshift File.dirname(__FILE__) + '/../lib'
+
+require 'crake'
+require 'crake/application'
+
+CRake::Application.new.run(ARGV)

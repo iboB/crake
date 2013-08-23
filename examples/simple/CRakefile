@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+#
+# CRake
+# Copyright (c) 2013 Borislav Stanimirov
+#
+# Distributed under the MIT Software License
+# See accompanying file MIT-LICENSE.txt or copy at
+# http://opensource.org/licenses/MIT
+#
+
+project "SimpleExample" do
+  source_group "main" do
+    files %w(main.cpp simple.h simple.cpp)
+  end
+
+  target :executable, "simple"
+end

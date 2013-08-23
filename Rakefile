@@ -17,10 +17,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "crake"
   gem.homepage = "http://github.com/iboB/crake"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "A CMake generator"
+  gem.description = "Use crake to generate CMakeLists.txt instead of writing it youself, "
+    + "using Ruby and all of its perks, instead of the... well.. awful language of CMake"
   gem.email = "b.stanimirov@abv.bg"
   gem.authors = ["Borislav Stanimirov"]
+
+  gem.executable = "crake"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
